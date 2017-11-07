@@ -1,0 +1,180 @@
+header, section, footer, aside, nav, main, article, figure {
+    display: block;
+}
+body{
+	background-color: #000000;
+	color: #ffffff;
+	font-size: 17px;
+	margin: 0;
+	font-family: 'Nunito Sans', sans-serif;
+}
+.logo{
+	text-align: center;
+	width: 100%;
+	font-family: 'Indie Flower', cursive;
+	font-size: 60px;
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
+nav{
+	text-align: center;
+}
+.topmenu{
+	list-style-type: none;
+	padding: 10px;
+	font-size: 20px;
+	min-height: 35px;
+	line-height: 200%;
+}
+.topmenu > li
+{
+	display: inline-block;
+	padding-left: 15px;
+	padding-right: 15px;
+	border-right: 2px dashed #ffffff;
+}
+.topmenu > li:first-child
+{
+	border-left: 2px dashed #ffffff;
+}
+.topmenu a
+{
+	color: #fff;
+	text-decoration: none;
+}
+.topmenu a:hover
+{
+	color: #333333;
+}
+.socials
+{
+	width:100%;
+	text-align: center;	
+}
+.socialdivs
+{
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+.fb
+{
+	width: 80px;
+	height: 90px;
+	float:left;
+}
+.fb:hover
+{
+	background-color: #4668b3;
+}
+.yt
+{
+	width: 80px;
+	height: 90px;
+	float:left;
+}
+.yt:hover
+{
+	background-color: #d94348;
+}
+.gplus
+{
+	width: 80px;
+	height: 90px;
+	float:left;
+}
+.gplus:hover
+{
+	background-color: #d95333;
+}
+.github
+{
+	width: 80px;
+	height: 90px;
+	float:left;
+}
+.github:hover
+{
+	background-color: #171515;
+}
+.in
+{
+	width: 80px;
+	height: 90px;
+	float:left;
+}
+.in:hover
+{
+	background-color: #0e76a8;
+}
+.ig
+{
+	width: 80px;
+	height: 90px;
+	float:left;
+}
+.ig:hover
+{
+	background-color: #c08d64
+}
+footer
+{
+	text-align: center;
+	padding-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.info a
+{
+	text-decoration: none;
+	color: #ffffff;
+}
+.info
+{
+	padding-top: 20px;
+}
+.aa{
+	text-decoration: none;
+	color: #ffffff;
+}
+.pasek
+{
+	background-color: #ffffff;
+	height: 2px;
+	width: 100%;
+}
+.h
+{
+	text-align: center;
+}
+.container
+{
+	
+	width: 100%;
+	text-align: center;
+	margin-bottom: 15px;
+	line-height: 140%;
+}
+.fotki
+{
+	width: 220px;
+	height: 220px;
+}
+.obrazek
+{
+	padding-left: 7%;
+	padding-right: 7%;
+	float: left;
+	margin: 20px;
+	font-size: 12px;
+	display: block;
+	text-align: center;
+}
+.lang
+{
+	margin-right: 10px;
+	float: right;
+	width: 30px;
+	height: 20px;
+}
